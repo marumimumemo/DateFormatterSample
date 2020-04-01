@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let now = "2020-04-01"
+        print(now.toDate(.hypenYearToDay)!)
+        
+        let today = Date()
+        print(today.toString(.yearToDay))
+        
     }
 
 
